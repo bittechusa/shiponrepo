@@ -13,8 +13,8 @@ public class OpenBrowser {
 		browser.get("http://www.bluefly.com");
 		System.out.println(browser.getTitle());
 		browser.manage().window().maximize();
-		if(browser.getTitle().equals("Bluefly - Designer Clothing, Handbags, Shoes & Accessories (Prada, Fendi, Gucci & more) at Discount Prices"
-))
+		if(browser.getTitle().equals("Bluefly - Designer Clothing, Handbags, Shoes & Accessories (Prada, Fendi, Gucci & more) at Discount Prices"))
+
 		{
 			System.out.println("matched");
 		}
